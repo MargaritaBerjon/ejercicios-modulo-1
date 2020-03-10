@@ -1,0 +1,31 @@
+.div1 {
+  background-color: yellow;
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  top: 25px;
+  z-index: 1;
+  box-sizing: border-box;
+  padding: 98px;
+  border: 2px red solid;
+}
+
+.div2 {
+  background-color: green;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  z-index: 1;
+  box-sizing: border-box;
+  padding: 75px;
+}
+
+.div3 {
+  background-color: blue;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  z-index: 1;
+  box-sizing: border-box;
+  border: 3px solid black;
+}

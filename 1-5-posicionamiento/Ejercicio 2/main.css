@@ -1,0 +1,25 @@
+.divPadre div {
+  border: 15px solid cadetblue;
+  width: 300px;
+  height: 300px;
+  margin: 40px;
+  padding: 30px;
+  position: relative;
+}
+.div1 {
+  background-color: aqua;
+  left: 100px;
+  top: 50px;
+}
+
+.div2 {
+  background-color: aquamarine;
+  right: 150px;
+  bottom: 320px;
+}
+
+.div3 {
+  background-color: burlywood;
+  left: 180px;
+  bottom: 240px;
+}

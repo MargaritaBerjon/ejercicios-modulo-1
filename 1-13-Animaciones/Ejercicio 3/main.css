@@ -1,0 +1,32 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  border: 2px solid red;
+  background-color: lightcyan;
+  width: 400px;
+  height: 200px;
+  position: relative;
+}
+
+.box {
+  width: 400px;
+  height: 200px;
+  position: relative;
+  top: 255px;
+  transition: all 2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: transparent;
+}
+
+.container:hover .box {
+  transform: translate(0px, -255px);
+  background-color: violet;
+  color: aliceblue;
+}

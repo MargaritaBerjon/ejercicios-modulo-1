@@ -1,0 +1,33 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(./images/fon-ejo-4.jpg);
+}
+
+.content {
+  font-size: 100px;
+  color: #c83cdb;
+  animation-duration: 3s;
+  animation-name: intro;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+}
+
+@keyframes intro {
+  from {
+    transform: translate(0, -1000%);
+    color: white;
+  }
+
+  to {
+    transform: translate(0, 0);
+  }
+}

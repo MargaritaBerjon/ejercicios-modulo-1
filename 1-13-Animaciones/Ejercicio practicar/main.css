@@ -1,0 +1,53 @@
+/* .form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: lightcoral;
+}
+
+.form-textbox-mail {
+  margin-top: 10px;
+}
+
+.form-label-mail {
+  position: relative;
+  left: -35px;
+  top: -18px;
+  color: black;
+  transition: 0.5s;
+}
+
+.form-textbox-mail:focus ~ .form-label-mail {
+  top: -38px;
+}
+
+.form-textbox-pass {
+  margin-top: 10px;
+}
+
+.form-label-pass {
+  position: relative;
+  left: -23px;
+  top: -18px;
+  color: black;
+  transition: 0.5s;
+}
+
+.form-textbox-pass:focus ~ .form-label-pass {
+  top: -38px;
+} */
+
+p ~ span {
+  color: red;
+}
+
+span ~ code {
+  background-color: tomato;
+}
+
+:hover code {
+  background-color: blue;
+}

@@ -1,0 +1,11 @@
+.cabecera {
+  background-color: purple;
+  position: fixed;
+  width: 100%;
+  height: 85px;
+  top: 0;
+}
+
+.container {
+  margin-top: 85px;
+}

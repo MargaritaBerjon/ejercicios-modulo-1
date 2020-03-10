@@ -1,0 +1,35 @@
+* {
+  font-family: "Courier New", Courier, monospace;
+}
+.container {
+  border: 8px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  max-width: 70%;
+  margin-top: 106px;
+}
+
+.autor {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 32px;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 27px;
+}
+
+a {
+  padding: 8px 16px;
+  margin-left: -16px;
+}
