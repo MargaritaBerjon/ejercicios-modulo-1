@@ -1,0 +1,15 @@
+#contenedor {
+  border: 15px solid red;
+    background:rgb(77, 168, 211);
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .item {
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(182, 194, 235);
+  }

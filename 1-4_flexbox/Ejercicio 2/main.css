@@ -1,0 +1,16 @@
+#contenedor {
+    background:rgb(77, 168, 211);
+    display: flex;
+   flex-wrap: wrap;
+    
+  }
+  
+  .item {
+  height: 100px;
+  width: 200px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(182, 194, 235);
+  }
+
+ 
